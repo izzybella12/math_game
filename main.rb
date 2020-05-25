@@ -1,7 +1,8 @@
 require './game'
-require './players'
+require './player'
 require './questions'
 
-game = Game.new
-puts game.run
 
+
+new_game = Game.new
+puts new_game.run
